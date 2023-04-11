@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;600&display=swap");
+.doctor-block {
+  background-color: #4b4141;
+  padding-left: 150px;
+  height: 523px;
+  display: flex;
+  position: relative;
+}
+
+.doctor-name {
+  padding-top: 84px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.doctor-position {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-top: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a4a4a4;
+}
+
+.doctor-tagline {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  width: 519px;
+  height: 132px;
+}
+
+.doctor-button {
+  margin-top: 56px;
+  height: 52px;
+  width: 236px;
+  background: inherit;
+  border-radius: 50px;
+  border: 1px solid #c3007d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: white;
+}
+
+.doctor-main-picture {
+  width: 359px;
+  height: 458px;
+  position: absolute;
+  bottom: 0;
+  right: 224px;
+}
+
+.little-shadow {
+  position: absolute;
+  width: 341px;
+  height: 308px;
+  bottom: 85px;
+  right: 252px;
+}
+
+.big-shadow {
+  position: absolute;
+  height: 481px;
+  width: 534px;
+  bottom: 1px;
+  right: 156px;
+}
