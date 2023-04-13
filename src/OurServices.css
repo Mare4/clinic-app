@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+
+.our-services-main {
+  width: 1140px;
+  height: 573px;
+  margin: 77px 150px 97px;
+  position: relative;
+}
+
+.our-services-title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.28px;
+  margin-bottom: 27px;
+}
+
+.our-services-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  color: #212226;
+  width: 694px;
+}
+
+.our-services-building-picture {
+  width: 367px;
+  height: 439px;
+  position: absolute;
+  right: 0;
+  top: 82px;
+}

@@ -1,9 +1,8 @@
 import React from "react";
 import "./Services.css";
-import services_image from "./services-image.png";
-import Ellipse from "./Ellipse.svg";
-import right_vector from "./Vector-right.svg";
-import left_vector from "./Vector-left.svg";
+import services_image from "./assets/services-image.png";
+import left_button from "./assets/button-left.svg";
+import right_button from "./assets/button-right.svg";
 
 export default function Services() {
   return (
@@ -24,10 +23,13 @@ export default function Services() {
             <span className="bold-text"> весь спектр услуг</span> для здоровья и
             хорошего самочувствия.
           </p>
-          <img className="ellipse-image-left" src={Ellipse} alt="ellipse" />
-          <img className="left-vector" src={left_vector} alt="ellipse" />
-          <img className="ellipse-image-right" src={Ellipse} alt="ellipse" />
-          <img className="right-vector" src={right_vector} alt="ellipse" />
+          <img className="ellipse-image-left" src={left_button} alt="ellipse" />
+
+          <img
+            className="ellipse-image-right"
+            src={right_button}
+            alt="ellipse"
+          />
         </div>
       </div>
     </div>

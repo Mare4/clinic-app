@@ -5,6 +5,8 @@ import MainBlock from "./MainBlock";
 import Services from "./Services";
 import DoctorBlock from "./DoctorBlock";
 import AboutUs from "./AboutUs";
+import CheckUp from "./CheckUp";
+import OurServices from "./OurServices";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Services />
       <DoctorBlock />
       <AboutUs />
+      <CheckUp />
+      <OurServices />
     </React.Fragment>
   );
 }

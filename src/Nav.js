@@ -1,9 +1,9 @@
 import React from "react";
 import "./Nav.css";
-import logo from "./logo.png";
-import search from "./search-logo.png";
-import location from "./location-logo.svg";
-import drop from "./drop.svg";
+import logo from "./assets/logo.png";
+import search from "./assets/search-logo.png";
+import location from "./assets/location-logo.svg";
+import drop from "./assets/drop.svg";
 
 export default function Nav() {
   return (

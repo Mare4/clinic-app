@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+
+.check-up-main {
+  height: 623px;
+  background-color: #e7f7ff;
+  background-image: url("./assets/check-up-background.png");
+}
+
+.check-up-title {
+  margin: 0;
+  padding-top: 64px;
+  padding-left: 152px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  line-height: 80px;
+  font-size: 34px;
+}
+
+.check-up-title-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.check-up-text {
+  padding-left: 149px;
+  width: 559px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.check-up-text-bold {
+  font-weight: 600;
+}
+
+.check-up-old-price {
+  padding-left: 247px;
+  margin-top: 84px;
+  color: #848484;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+
+.check-up-new-price {
+  padding-left: 182px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.88px;
+}
+
+.check-up-space-buttons {
+  margin-left: 149px;
+  margin-right: 17px;
+  margin-top: 12px;
+}
+
+.check-up-button-enroll {
+  width: 236px;
+  height: 52px;
+  border-radius: 50px;
+  color: white;
+  background-color: #c3007d;
+  border: 1px solid #c3007d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+.check-up-button-see-all {
+  width: 236px;
+  height: 52px;
+  border-radius: 50px;
+  color: black;
+  border: 1px solid #c3007d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  background-color: rgba(200, 200, 200, 0);
+}
