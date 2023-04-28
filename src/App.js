@@ -7,6 +7,7 @@ import DoctorBlock from "./DoctorBlock";
 import AboutUs from "./AboutUs";
 import CheckUp from "./CheckUp";
 import OurServices from "./OurServices";
+import Carousel from "./Сarousel";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AboutUs />
       <CheckUp />
       <OurServices />
+      <Carousel />
     </React.Fragment>
   );
 }

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+
+.carousel-main {
+  position: relative;
+  height: 693px;
+  background: #4b4141;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.carousel-content {
+  position: absolute;
+  height: 558px;
+  width: 1140px;
+  top: calc(50% - 279px);
+}
+
+.carousel-header {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: Merriweather;
+  font-size: 40px;
+  line-height: 50.28px;
+  font-weight: 700;
+}
+
+.carousel-header-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  line-height: 24.38px;
+  font-family: Montserrat;
+}
+
+.carousel-flex-pictures {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  align-items: center;
+}
+
+.carousel-picture {
+  width: 270px;
+  height: 249px;
+}
+
+.carousel-middle-picture {
+  width: 493px;
+  height: 334px;
+  margin-left: 51px;
+  margin-right: 56px;
+}
+
+.carousel-play-button-background {
+  position: absolute;
+  top: calc(50% - 15px);
+  right: calc(50% - 58px);
+  height: 76px;
+  width: 116px;
+}
+
+.carousel-play-button {
+  position: absolute;
+  width: 52px;
+  height: 43px;
+  top: 50%;
+  right: calc(50% - 28px);
+}
+
+.carousel-button-left {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 45px;
+  left: 439.5px;
+}
+
+.carousel-button-right {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 45px;
+  right: 439.5px;
+}
+
+.carousel-dot-second {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 15.5px;
+  right: calc(50% - 6px);
+}
+
+.carousel-dot-third {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 15.5px;
+  right: 531.5px;
+}
+
+.carousel-active-dot {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: #c3007d;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 15.5px;
+  left: 531.5px;
+}
