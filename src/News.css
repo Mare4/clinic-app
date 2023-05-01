@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+.news-main {
+  position: relative;
+  height: 728px;
+  background-color: #faf8f3;
+  padding-left: 150px;
+  padding-right: 168px;
+}
+
+.news-content {
+  position: absolute;
+  width: 1123px;
+  top: 78px;
+}
+
+.news-title {
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.28px;
+  margin: 0;
+}
+
+.news-button {
+  position: absolute;
+  height: 52px;
+  width: 236px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  right: 0;
+  top: 5px;
+  border: 1px solid #c3007d;
+  background-color: rgba(200, 200, 200, 0);
+}
+
+.news-flex-cards-content {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.news-card {
+  width: 350px;
+  height: 391px;
+  background-color: white;
+  box-shadow: 1px 10px 30px gray;
+}
+
+.news-first-card-picture {
+  width: 100%;
+  height: 195px;
+}
+
+.news-card-text-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin: 0;
+  padding-top: 0;
+}
+
+.news-date {
+  margin: 17px 0 11px 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #a1a1a1;
+}
+
+.news-text {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+
+.news-arrow-picture {
+  border: 1px solid black;
+  width: 23px;
+  height: 0px;
+}
+
+.news-active-dot {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: #c3007d;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 74px;
+  left: 676px;
+}
+
+.news-dot-third {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 74px;
+  right: 693px;
+}
+
+.news-dot-second {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 74px;
+  left: 706px;
+}
+
+.news-button-left {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  left: 584px;
+  bottom: 58px;
+}
+
+.news-button-right {
+  position: absolute;
+  bottom: 58px;
+  height: 45px;
+  width: 45px;
+  right: 601px;
+}
