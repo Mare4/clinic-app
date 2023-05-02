@@ -10,6 +10,7 @@ import OurServices from "./OurServices";
 import Carousel from "./Сarousel";
 import News from "./News";
 import DoctorInfo from "./DoctorInfo";
+import Question from "./Question";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Carousel />
       <News />
       <DoctorInfo />
+      <Question />
     </React.Fragment>
   );
 }

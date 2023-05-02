@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+.question-main {
+  padding: 78px 349px 70px 336px;
+}
+
+.question-header {
+  font-family: Merriweather;
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.28px;
+  text-align: center;
+}
+
+.question-yellow-mark {
+  height: 100%;
+  width: 11px;
+  background-color: #fdf2d7;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.name-of-question {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  margin: 0 auto 12px 0;
+}
+
+.answer-of-question {
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #848484;
+  margin: 0 auto 0 8px;
+  width: 660px;
+}
+
+.question-first-card {
+  position: relative;
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-left: 29px;
+  padding-bottom: 27px;
+  box-shadow: 0px 5px 15px #5958594d;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.question-close-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  padding: 0;
+}
+
+.question-drop-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 19px;
+  right: 21px;
+  padding: 0;
+}
+
+.question-drop-button-image {
+  height: 14px;
+  width: 14px;
+}
+
+.question-close-button-image {
+  height: 15px;
+  width: 15px;
+}
+
+.inactive-question {
+  margin-top: 10px;
+  position: relative;
+  padding-top: 16px;
+  padding-left: 28px;
+  padding-bottom: 15px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+}
+
+.inactive-question p {
+  margin: 0;
+}
+
+.question-button {
+  display: block;
+  position: relative;
+  margin: 42px auto 70px;
+  border: 1px solid #c3007d;
+  border-radius: 50px;
+  height: 52px;
+  width: 236px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.question-arrow {
+  width: 23px;
+  position: absolute;
+  right: 47px;
+  top: 0;
+  height: 52px;
+}
+.question-button-text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  margin: 0;
+  padding-left: 47px;
+  text-align: start;
+}
