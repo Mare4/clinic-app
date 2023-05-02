@@ -11,6 +11,7 @@ import Carousel from "./Сarousel";
 import News from "./News";
 import DoctorInfo from "./DoctorInfo";
 import Question from "./Question";
+import Instagram from "./Instagram";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <News />
       <DoctorInfo />
       <Question />
+      <Instagram />
     </React.Fragment>
   );
 }
