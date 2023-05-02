@@ -8,6 +8,8 @@ nav ul {
   padding: 0;
 }
 nav {
+  padding-left: 150px;
+  padding-right: 150px;
   font-family: "Montserrat", sans-serif;
   align-items: center;
   display: flex;
@@ -15,12 +17,12 @@ nav {
   height: 95px;
 }
 
-.number {
+.nav-phone-number {
   font-weight: 600;
   font-size: 17px;
 }
 
-.city {
+.nav-city {
   font-weight: 400;
   font-size: 14px;
   margin-top: 0;
@@ -35,25 +37,26 @@ a:hover {
   font-size: 18px;
 }
 
-img {
+.nav-logo {
   width: 141px;
   height: 61px;
+  margin-right: 49px;
 }
 
-.search-logo {
+.nav-search-logo {
   width: 26px;
   height: 26px;
   margin-left: 66px;
   margin-right: 40px;
 }
 
-.location-logo {
+.nav-location-logo {
   width: 10px;
   height: 14px;
   padding-right: 6px;
 }
 
-.drop-logo {
+.nav-drop-logo {
   height: 5px;
   width: 9px;
   padding-left: 4px;
