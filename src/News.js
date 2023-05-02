@@ -11,8 +11,10 @@ export default function News() {
   return (
     <div className="news-main">
       <div className="news-content">
-        <h3 className="news-title">Новости и акции</h3>
-        <button className="news-button">Смотреть все</button>
+        <div className="news-header">
+          <h3 className="news-title">Новости и акции</h3>
+          <button className="news-button">Смотреть все</button>
+        </div>
         <div className="news-flex-cards-content">
           <div className="news-card">
             <img className="news-first-card-picture" src={first_card_picture} />
@@ -21,8 +23,8 @@ export default function News() {
               <p className="news-text">
                 7-8 ноября состоится тренинг "Языки любви"
               </p>
-              <img className="news-arrow-picture" scr={arrow_picture} />
             </div>
+            <img className="news-arrow-picture" src={arrow_picture} />
           </div>
           <div className="news-card">
             <img
@@ -36,6 +38,7 @@ export default function News() {
                 последствия эпидемии хочу рожать
               </p>
             </div>
+            <img className="news-arrow-picture" src={arrow_picture} />
           </div>
           <div className="news-card">
             <img className="news-first-card-picture" src={third_card_picture} />
@@ -46,6 +49,7 @@ export default function News() {
                 <br /> Прямой эфир из родзала!
               </p>
             </div>
+            <img className="news-arrow-picture" src={arrow_picture} />
           </div>
         </div>
       </div>
