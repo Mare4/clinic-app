@@ -1,0 +1,50 @@
+.reviews-main {
+  position: relative;
+  margin-top: 82px;
+  margin-bottom: 97px;
+  padding: 29px 343px 0;
+}
+
+.reviews-quotes-image {
+  z-index: 1;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  right: calc(50% - 24.5px);
+}
+
+.reviews-content {
+  position: relative;
+  padding: 52px 57px 23px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  margin-bottom: 36px;
+}
+
+.reviews-text {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 21.94px;
+  font-weight: 400;
+  color: #212226;
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.reviews-owner-name {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.94px;
+  text-align: center;
+}
+
+.reviews-water-mark {
+  position: absolute;
+  width: 137px;
+  height: 32.56px;
+  right: 23px;
+  bottom: 17.44px;
+}
