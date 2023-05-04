@@ -13,6 +13,7 @@ import DoctorInfo from "./DoctorInfo";
 import Question from "./Question";
 import Instagram from "./Instagram";
 import Reviews from "./Reviews";
+import OurMotto from "./OurMotto";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Question />
       <Instagram />
       <Reviews />
+      <OurMotto />
     </React.Fragment>
   );
 }

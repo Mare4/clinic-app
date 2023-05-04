@@ -1,0 +1,42 @@
+.our-motto-main {
+  background-image: url(./assets/our-motto-background.png);
+  padding-top: 111px;
+  padding-right: 148px;
+  padding-bottom: 84px;
+}
+
+.our-motto-header {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.28px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 45px;
+  text-align: right;
+}
+
+.our-motto-text-block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.out-motto-text {
+  text-align: right;
+  width: 505px;
+  height: 192px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.our-motto-second-paragraph {
+  margin-bottom: 0;
+}
+
+.our-motto-last-paragraph {
+  margin: 0;
+}
