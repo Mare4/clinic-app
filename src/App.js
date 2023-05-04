@@ -14,6 +14,7 @@ import Question from "./Question";
 import Instagram from "./Instagram";
 import Reviews from "./Reviews";
 import OurMotto from "./OurMotto";
+import Map from "./Map";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Instagram />
       <Reviews />
       <OurMotto />
+      <Map />
     </React.Fragment>
   );
 }
