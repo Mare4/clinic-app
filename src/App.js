@@ -15,6 +15,7 @@ import Instagram from "./Instagram";
 import Reviews from "./Reviews";
 import OurMotto from "./OurMotto";
 import Map from "./Map";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Reviews />
       <OurMotto />
       <Map />
+      <Footer />
     </React.Fragment>
   );
 }
