@@ -11,13 +11,7 @@ export default function Footer() {
         <img className="footer-logo" src={footer_logo} alt="footer_logo" />
         <div className="footer-rules-section">
           <div className="footer-version-for-the-visually-impaired-section">
-            <a>
-              <img
-                className="footer-eye-image"
-                src={eye_image}
-                alt="eye_image"
-              />
-            </a>
+            <img className="footer-eye-image" src={eye_image} alt="eye_image" />
             <a>
               <h4 className="footer-version-for-the-visually-impaired-button">
                 Версия для слабовидящих
