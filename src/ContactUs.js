@@ -96,7 +96,9 @@ export default function ContactUs() {
               />
               <p className="contact-us-agree-text">
                 <input className="contact-us-input-button" type="checkbox" />
-                Согласие на обработку{" "}
+                <span className="contact-us-margin-text-from-checkbox">
+                  Согласие на обработку
+                </span>{" "}
                 <span className="contact-us-underline-text">
                   персональных данных
                 </span>
