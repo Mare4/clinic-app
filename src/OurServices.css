@@ -57,17 +57,3 @@
   align-items: center;
   margin-bottom: 20px;
 }
-
-.our-services-button {
-  width: 236px;
-  border-radius: 50px;
-  height: 52px;
-  background: #c3007d;
-  border: 1px solid #c3007d;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19.5px;
-  box-shadow: 3px 1px 10px rgba(89, 88, 89, 1);
-}

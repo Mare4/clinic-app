@@ -9,13 +9,13 @@ export default function OurMotto() {
         <p className="out-motto-text">
           Мы не творим волшебство, а усердно работаем, чтобы сделать жизнь семьи
           здоровой и качественной. Это задача обеих сторон.
-          <p className="our-motto-second-paragraph">
-            Наш приоритет - доверительные отношения, равноправие и партнерство.
-            <p className="our-motto-last-paragraph">
-              Для нас быть другом не менее важно, <br />
-              чем профессионалом.
-            </p>
-          </p>
+        </p>
+        <p className="our-motto-second-paragraph">
+          Наш приоритет - доверительные отношения, равноправие и партнерство.
+        </p>
+        <p className="our-motto-last-paragraph">
+          Для нас быть другом не менее важно, <br />
+          чем профессионалом.
         </p>
       </div>
     </div>

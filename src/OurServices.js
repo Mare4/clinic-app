@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurServices.css";
+import Button from "./components/ui/Button/Button";
 import main_building from "./assets/building.png";
 import heart from "./assets/our-services-heart-pictures.svg";
 import scissor from "./assets/our-services-scissor-picture.svg";
@@ -90,7 +91,7 @@ export default function OurServices() {
           <p className="our-services-grid-text">Роды</p>
         </div>
       </div>
-      <button className="our-services-button">Все услуги</button>
+      { <Button label="Все услуги" /*onClick={() => console.log("Все услуги")}*/ />
     </div>
   );
 }

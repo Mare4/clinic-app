@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import MainBlock from "./MainBlock";
 import Services from "./Services";
 import DoctorBlock from "./DoctorBlock";
-import AboutUs from "./AboutUs";
+import AboutUs from "./components/AboutUs/AboutUs";
 import CheckUp from "./CheckUp";
 import OurServices from "./OurServices";
 import Carousel from "./Сarousel";
@@ -14,7 +14,7 @@ import Question from "./Question";
 import Instagram from "./Instagram";
 import Reviews from "./Reviews";
 import OurMotto from "./OurMotto";
-import ContactUs from "./ContactUs";
+import ContactUs from "./components/ContactUs/ContactUs";
 import Map from "./Map";
 import Footer from "./Footer";
 
@@ -36,7 +36,7 @@ function App() {
       <Reviews />
       <OurMotto />
       <ContactUs />
-      <Map />
+      {/* <Map /> */}
       <Footer />
     </React.Fragment>
   );

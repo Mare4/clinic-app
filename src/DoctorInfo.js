@@ -13,26 +13,22 @@ export default function DoctorInfo() {
             доктор медицинских наук,
           </span>{" "}
           профессор
-          <p>
-            - Заслуженный врач России{" "}
-            <span className="doctor-info-bold-text">со стажем 36 лет</span>
-            <br />-{" "}
-            <span className="doctor-info-bold-text">
-              Ведущий специалист
-            </span>{" "}
-            "Научного центра акушерства, гинекологии и перинатологии имени
-            академика В.И. Кулакова" Минздрава России{" "}
-          </p>
-          <p>
-            {" "}
-            - <span className="doctor-info-bold-text">
-              Обучалась в Италии
-            </span>{" "}
-            в Европейской школе перинатальной, неонатальной и репродуктивной
-            медицины: PREIS SCHOOL и{" "}
-            <span className="doctor-info-bold-text">в Лондоне</span> в Школе
-            материнской, плодовой и неонатальной медицины в 2017 году
-          </p>
+        </p>
+        <p>
+          - Заслуженный врач России{" "}
+          <span className="doctor-info-bold-text">со стажем 36 лет</span>
+          <br />-{" "}
+          <span className="doctor-info-bold-text">Ведущий специалист</span>{" "}
+          "Научного центра акушерства, гинекологии и перинатологии имени
+          академика В.И. Кулакова" Минздрава России{" "}
+        </p>
+        <p>
+          {" "}
+          - <span className="doctor-info-bold-text">Обучалась в Италии</span> в
+          Европейской школе перинатальной, неонатальной и репродуктивной
+          медицины: PREIS SCHOOL и{" "}
+          <span className="doctor-info-bold-text">в Лондоне</span> в Школе
+          материнской, плодовой и неонатальной медицины в 2017 году
         </p>
       </div>
       <button className="doctor-info-button">Подробнее</button>
