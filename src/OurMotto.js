@@ -10,10 +10,9 @@ export default function OurMotto() {
           Мы не творим волшебство, а усердно работаем, чтобы сделать жизнь семьи
           здоровой и качественной. Это задача обеих сторон.
         </p>
-        <p className="our-motto-second-paragraph">
+        <p className="out-motto-text">
           Наш приоритет - доверительные отношения, равноправие и партнерство.
-        </p>
-        <p className="our-motto-last-paragraph">
+          <br />
           Для нас быть другом не менее важно, <br />
           чем профессионалом.
         </p>

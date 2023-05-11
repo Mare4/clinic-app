@@ -18,25 +18,19 @@
 
 .our-motto-text-block {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 192px;
+  width: 505px;
+  margin: 0 0 0 auto;
 }
 
 .out-motto-text {
   text-align: right;
-  width: 505px;
-  height: 192px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #fff;
-  margin: 0;
-}
-
-.our-motto-second-paragraph {
-  margin-bottom: 0;
-}
-
-.our-motto-last-paragraph {
   margin: 0;
 }
