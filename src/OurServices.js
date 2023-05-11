@@ -91,7 +91,9 @@ export default function OurServices() {
           <p className="our-services-grid-text">Роды</p>
         </div>
       </div>
-      { <Button label="Все услуги" /*onClick={() => console.log("Все услуги")}*/ />
+      <Button
+        label="Все услуги" /*onClick={() => console.log("Все услуги")}*/
+      />
     </div>
   );
 }

@@ -7,9 +7,12 @@
   padding-top: 65px;
 }
 
-.doctor-info-flex-container {
+.doctor-info-container {
+  width: 633px;
+  height: 377px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .doctor-info-name {
@@ -18,7 +21,6 @@
   font-size: 40px;
   line-height: 50.28px;
   margin: 0;
-  margin-bottom: 30px;
 }
 
 .doctor-info-text {

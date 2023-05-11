@@ -5,8 +5,9 @@ import doctor_photo from "./assets/doctor-info-picture-of-doctor.png";
 export default function DoctorInfo() {
   return (
     <div className="doctor-info-main">
-      <div className="doctor-info-flex-container">
+      <div className="doctor-info-container">
         <p className="doctor-info-name">Буштырева Ирина</p>
+
         <p className="doctor-info-text">
           - Соучредитель "Клиники профессора Буштыревой",{" "}
           <span className="doctor-info-bold-text">
@@ -14,7 +15,7 @@ export default function DoctorInfo() {
           </span>{" "}
           профессор
         </p>
-        <p>
+        <p className="doctor-info-text">
           - Заслуженный врач России{" "}
           <span className="doctor-info-bold-text">со стажем 36 лет</span>
           <br />-{" "}
@@ -22,11 +23,11 @@ export default function DoctorInfo() {
           "Научного центра акушерства, гинекологии и перинатологии имени
           академика В.И. Кулакова" Минздрава России{" "}
         </p>
-        <p>
+        <p className="doctor-info-text">
           {" "}
           - <span className="doctor-info-bold-text">Обучалась в Италии</span> в
           Европейской школе перинатальной, неонатальной и репродуктивной
-          медицины: PREIS SCHOOL и{" "}
+          медицины: PREIS SCHOOL <br />и{" "}
           <span className="doctor-info-bold-text">в Лондоне</span> в Школе
           материнской, плодовой и неонатальной медицины в 2017 году
         </p>
