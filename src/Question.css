@@ -88,37 +88,12 @@
   padding-left: 28px;
   padding-bottom: 15px;
   border: 1px solid #dedede;
-  border-radius: 3px;
+}
+
+.margin-for-last-question {
+  margin-bottom: 42px;
 }
 
 .inactive-question p {
   margin: 0;
-}
-
-.question-button {
-  display: block;
-  position: relative;
-  margin: 42px auto 70px;
-  border: 1px solid #c3007d;
-  border-radius: 50px;
-  height: 52px;
-  width: 236px;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.question-arrow {
-  width: 23px;
-  position: absolute;
-  right: 47px;
-  top: 0;
-  height: 52px;
-}
-.question-button-text {
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19.5px;
-  margin: 0;
-  padding-left: 47px;
-  text-align: start;
 }

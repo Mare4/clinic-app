@@ -92,6 +92,7 @@ export default function OurServices() {
         </div>
       </div>
       <Button
+        className="btn"
         label="Все услуги" /*onClick={() => console.log("Все услуги")}*/
       />
     </div>

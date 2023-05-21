@@ -35,20 +35,8 @@
   line-height: 39px;
   width: 519px;
   height: 132px;
-}
-
-.doctor-button {
-  margin-top: 56px;
-  height: 52px;
-  width: 236px;
-  background: inherit;
-  border-radius: 50px;
-  border: 1px solid #c3007d;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.5px;
-  color: white;
+  margin-bottom: 56px;
+  margin-top: 24px;
 }
 
 .doctor-main-picture {

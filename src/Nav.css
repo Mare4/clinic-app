@@ -8,6 +8,10 @@ nav ul {
   padding: 0;
 }
 nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
   padding-left: 150px;
   padding-right: 150px;
   font-family: "Montserrat", sans-serif;

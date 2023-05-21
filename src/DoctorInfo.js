@@ -1,6 +1,7 @@
 import React from "react";
 import "./DoctorInfo.css";
 import doctor_photo from "./assets/doctor-info-picture-of-doctor.png";
+import Button from "./components/ui/Button/Button";
 
 export default function DoctorInfo() {
   return (
@@ -32,7 +33,7 @@ export default function DoctorInfo() {
           материнской, плодовой и неонатальной медицины в 2017 году
         </p>
       </div>
-      <button className="doctor-info-button">Подробнее</button>
+      <Button className="btn-transparent" label="Подробнее" />
       <img
         className="doctor-info-photo-of-doctor"
         src={doctor_photo}

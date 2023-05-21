@@ -90,20 +90,5 @@
 .flex-block {
   display: flex;
   padding-top: 82px;
-}
-
-.about-us-button {
-  display: block;
-  margin: 45px auto auto;
-  width: 236px;
-  height: 52px;
-  background-color: #c3007d;
-  color: white;
-  border: 1px solid #c3007d;
-  border-radius: 50px;
-  font-size: 16px;
-  line-height: 19.5px;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 3px 1px 10px rgba(89, 88, 89, 1);
+  margin-bottom: 45px;
 }

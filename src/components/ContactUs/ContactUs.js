@@ -104,6 +104,7 @@ export default function ContactUs() {
               </p>
             </div>
             <Button
+              className="btn"
               label="Оставить заявку"
               // onClick={() => console.log("Оставить заявку")}
             />

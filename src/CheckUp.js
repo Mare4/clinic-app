@@ -1,5 +1,6 @@
 import React from "react";
 import "./CheckUp.css";
+import Button from "./components/ui/Button/Button";
 
 export default function CheckUp() {
   return (
@@ -18,10 +19,8 @@ export default function CheckUp() {
       </p>
       <p className="check-up-old-price">14 520 руб</p>
       <p className="check-up-new-price">9800 руб</p>
-      <button className="check-up-button-enroll check-up-space-buttons">
-        Записаться
-      </button>
-      <button className="check-up-button-see-all">Все чекапы</button>
+      <Button className="btn margin-check-up" label="Записаться" />
+      <Button className="btn-transparent" label="Все чекапы" />
     </div>
   );
 }

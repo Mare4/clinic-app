@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
+import Button from "../ui/Button/Button";
 
 export default function AboutUs() {
   return (
@@ -60,7 +61,7 @@ export default function AboutUs() {
           </p>
         </div>
       </div>
-      <button className="about-us-button">Связаться с нами</button>
+      <Button className="btn center" label="Связаться с нами" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Question.css";
+import Button from "./components/ui/Button/Button";
 import close_button from "./assets/question-close-button.svg";
 import drop_button from "./assets/question-drop-button.svg";
 import arrow_image from "./assets/news-arrow-picture.svg";
@@ -46,7 +47,7 @@ export default function Question() {
           <img className="question-drop-button-image" src={drop_button} />
         </button>
       </div>
-      <div className="inactive-question">
+      <div className="inactive-question margin-for-last-question">
         <p className="name-of-question">
           Может ли прием антибиотиков спровоцировать цистит?
         </p>
@@ -54,10 +55,7 @@ export default function Question() {
           <img className="question-drop-button-image" src={drop_button} />
         </button>
       </div>
-      <button className="question-button">
-        <p className="question-button-text">Все вопросы</p>
-        <img className="question-arrow" src={arrow_image} />
-      </button>
+      <Button className="btn-transparent center" label="Все вопросы" />
     </div>
   );
 }

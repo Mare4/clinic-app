@@ -6,6 +6,7 @@ import third_card_picture from "./assets/news-third-card-picture.png";
 import arrow_picture from "./assets/news-arrow-picture.svg";
 import button_left from "./assets/news-button-left.svg";
 import button_right from "./assets/news-button-right.svg";
+import Button from "./components/ui/Button/Button";
 
 export default function News() {
   return (
@@ -13,7 +14,7 @@ export default function News() {
       <div className="news-content">
         <div className="news-header">
           <h3 className="news-title">Новости и акции</h3>
-          <button className="news-button">Смотреть все</button>
+          <Button className="btn-transparent" label="Смотреть все" />
         </div>
         <div className="news-flex-cards-content">
           <div className="news-card">

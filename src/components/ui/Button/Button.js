@@ -3,7 +3,7 @@ import "./Button.css";
 
 export default function Button(props) {
   return (
-    <button className="btn" type="button" onClick={props.onClick}>
+    <button className={props.className} type="button" onClick={props.onClick}>
       {props.label}
     </button>
   );
