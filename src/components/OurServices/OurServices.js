@@ -1,15 +1,15 @@
 import React from "react";
 import "./OurServices.css";
-import Button from "./components/ui/Button/Button";
-import main_building from "./assets/building.png";
-import heart from "./assets/our-services-heart-pictures.svg";
-import scissor from "./assets/our-services-scissor-picture.svg";
-import test_tube from "./assets/our-services-test-tube-picture.svg";
-import doctor_male from "./assets/our-services-doctor-male-picture.svg";
-import doctor_female from "./assets/our-services-doctor-female-picture.svg";
-import gender_sign from "./assets/our-services-gender-sign-picture.svg";
-import operation_table from "./assets/our-services-operation-table-picture.svg";
-import drips from "./assets/our-services-drips-picture.svg";
+import Button from "../../components/ui/Button/Button";
+import main_building from "../../assets/building.png";
+import heart from "../../assets/our-services-heart-pictures.svg";
+import scissor from "../../assets/our-services-scissor-picture.svg";
+import test_tube from "../../assets/our-services-test-tube-picture.svg";
+import doctor_male from "../../assets/our-services-doctor-male-picture.svg";
+import doctor_female from "../../assets/our-services-doctor-female-picture.svg";
+import gender_sign from "../../assets/our-services-gender-sign-picture.svg";
+import operation_table from "../../assets/our-services-operation-table-picture.svg";
+import drips from "../../assets/our-services-drips-picture.svg";
 
 export default function OurServices() {
   return (

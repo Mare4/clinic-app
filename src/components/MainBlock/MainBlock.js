@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainBlock.css";
-import Button from "./components/ui/Button/Button";
+import Button from "../ui/Button/Button";
 
 export default function MainBlock() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./DoctorInfo.css";
-import doctor_photo from "./assets/doctor-info-picture-of-doctor.png";
-import Button from "./components/ui/Button/Button";
+import doctor_photo from "../../assets/doctor-info-picture-of-doctor.png";
+import Button from "../ui/Button/Button";
 
 export default function DoctorInfo() {
   return (

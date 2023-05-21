@@ -1,9 +1,8 @@
 import React from "react";
 import "./Question.css";
-import Button from "./components/ui/Button/Button";
-import close_button from "./assets/question-close-button.svg";
-import drop_button from "./assets/question-drop-button.svg";
-import arrow_image from "./assets/news-arrow-picture.svg";
+import Button from "../ui/Button/Button";
+import close_button from "../../assets/question-close-button.svg";
+import drop_button from "../../assets/question-drop-button.svg";
 
 export default function Question() {
   return (

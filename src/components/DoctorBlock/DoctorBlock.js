@@ -1,9 +1,9 @@
 import React from "react";
 import "./DoctorBlock.css";
-import main_doctor from "./assets/main_doctor.png";
-import little_shadow from "./assets/doctor-background-shadow-little.png";
-import big_shadow from "./assets/doctor-background-shadow-big.png";
-import Button from "./components/ui/Button/Button";
+import main_doctor from "../../assets/main_doctor.png";
+import little_shadow from "../../assets/doctor-background-shadow-little.png";
+import big_shadow from "../../assets/doctor-background-shadow-big.png";
+import Button from "../ui/Button/Button";
 
 export default function DoctorBlock() {
   return (

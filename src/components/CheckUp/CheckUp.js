@@ -1,6 +1,6 @@
 import React from "react";
 import "./CheckUp.css";
-import Button from "./components/ui/Button/Button";
+import Button from "../ui/Button/Button";
 
 export default function CheckUp() {
   return (

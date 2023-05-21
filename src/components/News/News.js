@@ -1,12 +1,12 @@
 import React from "react";
 import "./News.css";
-import first_card_picture from "./assets/news-first-flex-card.png";
-import second_card_picture from "./assets/news-second-card-picture.png";
-import third_card_picture from "./assets/news-third-card-picture.png";
-import arrow_picture from "./assets/news-arrow-picture.svg";
-import button_left from "./assets/news-button-left.svg";
-import button_right from "./assets/news-button-right.svg";
-import Button from "./components/ui/Button/Button";
+import first_card_picture from "../../assets/news-first-flex-card.png";
+import second_card_picture from "../../assets/news-second-card-picture.png";
+import third_card_picture from "../../assets/news-third-card-picture.png";
+import arrow_picture from "../../assets/news-arrow-picture.svg";
+import button_left from "../../assets/news-button-left.svg";
+import button_right from "../../assets/news-button-right.svg";
+import Button from "../ui/Button/Button";
 
 export default function News() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Services.css";
-import services_image from "./assets/services-image.png";
-import left_button from "./assets/button-left.svg";
-import right_button from "./assets/button-right.svg";
+import services_image from "../../assets/services-image.png";
+import left_button from "../../assets/button-left.svg";
+import right_button from "../../assets/button-right.svg";
 
 export default function Services() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Reviews.css";
-import quotes_image from "./assets/reviews-quotes-image.svg";
-import water_mark from "./assets/water-mark.svg";
-import arrow_left from "./assets/news-button-left.svg";
-import arrow_right from "./assets/news-button-right.svg";
+import quotes_image from "../../assets/reviews-quotes-image.svg";
+import water_mark from "../../assets/water-mark.svg";
+import arrow_left from "../../assets/news-button-left.svg";
+import arrow_right from "../../assets/news-button-right.svg";
 
 export default function Reviews() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import footer_logo from "./assets/footer-logo.png";
-import partner_logo from "./assets/partner-logo.png";
-import eye_image from "./assets/footer-eye-image.svg";
+import footer_logo from "../../assets/footer-logo.png";
+import partner_logo from "../../assets/partner-logo.png";
+import eye_image from "../../assets/footer-eye-image.svg";
 
 export default function Footer() {
   return (

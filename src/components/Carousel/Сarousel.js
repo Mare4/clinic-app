@@ -1,12 +1,12 @@
 import React from "react";
 import "./Carousel.css";
-import first_picture from "./assets/carousel-first-picture.png";
-import second_picture from "./assets/carousel-second-picture.png";
-import third_picture from "./assets/carousel-third-picture.png";
-import play_button_background from "./assets/carousel-play-button-background.svg";
-import play_button from "./assets/carousel-play-button.svg";
-import button_left from "./assets/carousel-button-left.svg";
-import button_right from "./assets/carousel-button-right.svg";
+import first_picture from "../../assets/carousel-first-picture.png";
+import second_picture from "../../assets/carousel-second-picture.png";
+import third_picture from "../../assets/carousel-third-picture.png";
+import play_button_background from "../../assets/carousel-play-button-background.svg";
+import play_button from "../../assets/carousel-play-button.svg";
+import button_left from "../../assets/carousel-button-left.svg";
+import button_right from "../../assets/carousel-button-right.svg";
 
 export default function Carousel() {
   return (

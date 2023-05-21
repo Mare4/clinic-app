@@ -1,10 +1,10 @@
 import React from "react";
 import "./Instagram.css";
-import first_photo from "./assets/instagram-first-photo.png";
-import second_photo from "./assets/instagram-second-photo.png";
-import third_photo from "./assets/instagram-third-photo.png";
-import arrow_left from "./assets/news-button-left.svg";
-import arrow_right from "./assets/news-button-right.svg";
+import first_photo from "../../assets/instagram-first-photo.png";
+import second_photo from "../../assets/instagram-second-photo.png";
+import third_photo from "../../assets/instagram-third-photo.png";
+import arrow_left from "../../assets/news-button-left.svg";
+import arrow_right from "../../assets/news-button-right.svg";
 
 export default function Instagram() {
   return (
