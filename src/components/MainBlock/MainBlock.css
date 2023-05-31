@@ -7,7 +7,7 @@
   color: white;
 }
 
-.main-block h3 {
+.main-block-desktop h3 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 145px;
@@ -17,7 +17,7 @@
   font-weight: 400;
 }
 
-.main-block h1 {
+.main-block-desktop h1 {
   font-size: 55px;
   text-align: center;
   margin: 0;
@@ -25,4 +25,36 @@
   padding-bottom: 68px;
   line-height: 60px;
   font-family: "Merriweather", serif;
+}
+
+.main-block-mobile {
+  display: none;
+}
+
+@media all and (max-width: 375px) {
+  .main-block-desktop {
+    display: none;
+  }
+  .main-block-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 157px;
+  }
+  .main-mobile-header {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35.2px;
+    margin-bottom: 35px;
+  }
+  .main-mobile-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    margin-bottom: 64px;
+  }
+  .main-block {
+    background-image: url(../../assets/main-block-phone-background.png);
+  }
 }
