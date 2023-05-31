@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 import Button from "../ui/Button/Button";
+import Dots from "../ui/Dots/Dots";
 
 export default function AboutUs() {
   return (
@@ -25,41 +26,52 @@ export default function AboutUs() {
             для вашего здоровья и эмоционального спокойствия.
           </p>
         </div>
-        <div className="about-us-blocks block-02">
-          <div className="block-01-title-block">
-            <div className="block-02-title-name">02</div>
-            <div className="span-text-block-01">
-              Персональный <br />
-              подход
+        <div className="mobile-block-02">
+          <div className="about-us-blocks block-02">
+            <div className="block-01-title-block">
+              <div className="block-02-title-name">02</div>
+              <div className="span-text-block-01">
+                Персональный <br />
+                подход
+              </div>
             </div>
-          </div>
 
-          <div className="border_bottom"></div>
-          <p className="blocks-text">
-            После первого приема связывайтесь с нами удобным способом -{" "}
-            <span className="bold-text">даем личные номера специалистов,</span>{" "}
-            чтобы всегда быть в курсе ваших дел. На официальном сайте женской
-            клиники указаны соцсети специалистов.{" "}
-          </p>
+            <div className="border_bottom"></div>
+            <p className="blocks-text">
+              После первого приема связывайтесь с нами удобным способом -{" "}
+              <span className="bold-text">
+                даем личные номера специалистов,
+              </span>{" "}
+              чтобы всегда быть в курсе ваших дел. На официальном сайте женской
+              клиники указаны соцсети специалистов.{" "}
+            </p>
+          </div>
         </div>
-        <div className="about-us-blocks">
-          <div className="block-01-title-block">
-            <div className="block-03-title-name">03</div>
-            <div className="span-text-block-01">
-              С нами <br />
-              понятно
+        <div className="mobile-block-03">
+          <div className="about-us-blocks block-03">
+            <div className="block-01-title-block">
+              <div className="block-03-title-name">03</div>
+              <div className="span-text-block-01">
+                С нами <br />
+                понятно
+              </div>
             </div>
-          </div>
 
-          <div className="border_bottom"></div>
-          <p className="blocks-text">
-            После визита не придется искать в интернете информацию о диагнозе
-            или результатах исследования. Мы все{" "}
-            <span className="bold-text">объясним понятным языком</span> и опишем{" "}
-            <span className="bold-text">разборчивым почерком.</span> Вы будете
-            уверенны и спокойны.
-          </p>
+            <div className="border_bottom"></div>
+            <p className="blocks-text">
+              После визита не придется искать в интернете информацию о диагнозе
+              или результатах исследования. Мы все{" "}
+              <span className="bold-text">объясним понятным языком</span> и
+              опишем <span className="bold-text">разборчивым почерком.</span> Вы
+              будете уверенны и спокойны.
+            </p>
+          </div>
         </div>
+      </div>
+      <div className="about-us-dots-mobile">
+        <Dots className="active-dot" />
+        <Dots className="inactive-dot color-gray margin-12" />
+        <Dots className="inactive-dot color-gray" />
       </div>
       <Button className="btn center" label="Связаться с нами" />
     </div>

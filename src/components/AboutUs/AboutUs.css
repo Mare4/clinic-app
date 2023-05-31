@@ -37,10 +37,6 @@
   line-height: 91px;
 }
 
-.block-01 {
-  margin-left: 158px;
-}
-
 .block-02 {
   margin-left: 37px;
   margin-right: 37px;
@@ -89,6 +85,36 @@
 
 .flex-block {
   display: flex;
+  justify-content: center;
   padding-top: 82px;
   margin-bottom: 45px;
+}
+
+.about-us-dots-mobile {
+  display: none;
+}
+
+@media all and (max-width: 375px) {
+  .flex-block {
+    padding-top: 65px;
+    padding-left: 28px;
+    padding-right: 27px;
+    margin-bottom: 29px;
+  }
+  .mobile-block-02 {
+    display: none;
+  }
+  .mobile-block-03 {
+    display: none;
+  }
+  .blocks-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+  }
+  .about-us-dots-mobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 54px;
+  }
 }
