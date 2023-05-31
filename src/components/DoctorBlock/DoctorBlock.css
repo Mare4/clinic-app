@@ -44,21 +44,13 @@
   height: 458px;
   position: absolute;
   bottom: 0;
-  right: 224px;
+  right: 274px;
 }
 
-.little-shadow {
-  position: absolute;
-  width: 341px;
-  height: 308px;
-  bottom: 85px;
-  right: 252px;
-}
-
-.big-shadow {
+.shadow_for_photo {
   position: absolute;
   height: 481px;
   width: 534px;
   bottom: 1px;
-  right: 156px;
+  right: 196px;
 }
