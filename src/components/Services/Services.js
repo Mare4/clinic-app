@@ -31,8 +31,8 @@ export default function Services() {
           хорошего самочувствия.
         </p>
         <div className="arrow-button-container">
-          <LeftArrow className="services-margin-button-arrow" />
-          <RightArrow />
+          <LeftArrow className="size services-margin-button-arrow" />
+          <RightArrow className="size" />
         </div>
       </div>
     </div>
