@@ -7,7 +7,7 @@ import Button from "../ui/Button/Button";
 export default function DoctorBlock() {
   return (
     <div className="doctor-block">
-      <div>
+      <div className="doctor-block-text">
         <p className="doctor-name">
           Кузнецова Наталья{" "}
           <span className="doctor-name-hidden-for-mobile">Борисовна</span>
@@ -21,16 +21,18 @@ export default function DoctorBlock() {
           label="Все специалисты"
         />
       </div>
-      <img
-        className="shadow_for_photo"
-        src={shadow_for_photo}
-        alt="shadow_for_photo"
-      />
-      <img
-        className="doctor-main-picture"
-        src={main_doctor}
-        alt="main_doctor"
-      />
+      <div className="doctor-block-photo">
+        <img
+          className="shadow_for_photo"
+          src={shadow_for_photo}
+          alt="shadow_for_photo"
+        />
+        <img
+          className="doctor-main-picture"
+          src={main_doctor}
+          alt="main_doctor"
+        />
+      </div>
     </div>
   );
 }

@@ -54,3 +54,37 @@
   bottom: 1px;
   right: 196px;
 }
+
+@media all and (max-width: 375px) {
+  .doctor-block {
+    padding-top: 72px;
+    padding-left: 29px;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    width: 375px;
+  }
+  .doctor-name {
+    padding: 0;
+  }
+  .doctor-name-hidden-for-mobile {
+    display: none;
+  }
+  .doctor-tagline {
+    line-height: 24.38px;
+    font-size: 20px;
+    margin-bottom: 46px;
+    height: auto;
+  }
+  .shadow_for_photo {
+    width: 395px;
+    height: 395px;
+    left: 0;
+  }
+  .doctor-main-picture {
+    width: 340px;
+    height: 420px;
+    bottom: 0;
+    left: 35px;
+  }
+}
