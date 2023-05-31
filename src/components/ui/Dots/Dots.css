@@ -1,0 +1,41 @@
+.margin-second-dot {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.active-dot {
+  height: 12px;
+  width: 12px;
+  background-color: #c3007d;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.inactive-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-white {
+  background-color: #fff;
+}
+
+.color-gray {
+  background-color: #dedede;
+}
+
+.margin-12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.margin-18 {
+  margin-left: 18px;
+  margin-right: 18px;
+}
