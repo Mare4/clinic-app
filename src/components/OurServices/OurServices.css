@@ -57,3 +57,28 @@
   align-items: center;
   margin-bottom: 20px;
 }
+
+@media all and (max-width: 375px) {
+  .our-services-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+    padding-bottom: 70px;
+    margin: 101px 0 0 0;
+    height: auto;
+  }
+  .our-services-text {
+    width: 320px;
+  }
+  .our-services-grid-content {
+    display: inline-block;
+    margin-top: 132px;
+    margin-bottom: 47px;
+  }
+  .our-services-building-picture {
+    position: relative;
+    width: 375px;
+    height: 448px;
+    left: -28px;
+  }
+}
