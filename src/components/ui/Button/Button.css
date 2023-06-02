@@ -35,6 +35,10 @@
   display: block;
 }
 
-.margin-check-up {
+.margin-check-up-desktop {
   margin: 12px 17px 0 149px;
+}
+
+.margin-check-up-mobile {
+  margin-bottom: 18px;
 }
