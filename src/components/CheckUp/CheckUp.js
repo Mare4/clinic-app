@@ -19,8 +19,10 @@ export default function CheckUp() {
       </p>
       <p className="check-up-old-price">14 520 руб</p>
       <p className="check-up-new-price">9800 руб</p>
-      <Button className="btn margin-check-up" label="Записаться" />
-      <Button className="btn-transparent" label="Все чекапы" />
+      <div className="check-up-button-mobile">
+        <Button className="btn margin-check-up-desktop" label="Записаться" />
+        <Button className="btn-transparent" label="Все чекапы" />
+      </div>
     </div>
   );
 }

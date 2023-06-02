@@ -56,3 +56,39 @@
   font-weight: 400;
   line-height: 43.88px;
 }
+
+@media all and (max-width: 375px) {
+  .check-up-main {
+    width: 375px;
+    padding-top: 51px;
+    padding-left: 28px;
+    background-image: url(../../assets/check-up-background-mobile.png);
+  }
+  .check-up-title {
+    padding: 0;
+    font-size: 24px;
+    line-height: 30.17px;
+    font-weight: 400;
+  }
+  .check-up-text {
+    padding: 0;
+  }
+  .check-up-title-bold {
+    font-size: 50px;
+  }
+  .check-up-text {
+    width: 321px;
+  }
+  .check-up-old-price {
+    margin-top: 99px;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 144px;
+  }
+  .check-up-new-price {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 144px;
+    margin-bottom: 17px;
+  }
+}
