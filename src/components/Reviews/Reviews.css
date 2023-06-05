@@ -48,3 +48,26 @@
   right: 23px;
   bottom: 17.44px;
 }
+.reviews-dots-for-mobile {
+  display: none;
+}
+
+@media all and (max-width: 375px) {
+  .reviews-main {
+    padding-left: 28px;
+    padding-right: 27px;
+  }
+  .reviews-text {
+    text-align: left;
+  }
+  .reviews-content {
+    padding: 56px 13px 20px 15px;
+  }
+  .reviews-water-mark {
+    display: none;
+  }
+  .reviews-dots-for-mobile {
+    display: block;
+    text-align: center;
+  }
+}

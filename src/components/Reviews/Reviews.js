@@ -2,8 +2,7 @@ import React from "react";
 import "./Reviews.css";
 import quotes_image from "../../assets/reviews-quotes-image.svg";
 import water_mark from "../../assets/water-mark.svg";
-import arrow_left from "../../assets/news-button-left.svg";
-import arrow_right from "../../assets/news-button-right.svg";
+import Dots from "../ui/Dots/Dots";
 
 export default function Reviews() {
   return (
@@ -25,16 +24,10 @@ export default function Reviews() {
         <p className="reviews-owner-name">Анна П</p>
         <img className="reviews-water-mark" src={water_mark} alt="water_mark" />
       </div>
-      <div className="instagram-carousel-buttons-section">
-        <div className="instagram-flex-buttons">
-          <img className="instagram-carousel-left-button" src={arrow_left} />
-          <div className="instagram-dots">
-            <span className="instagram-active-dot"></span>
-            <span className="instagram-dot-second"></span>
-            <span className="instagram-dot-third"></span>
-          </div>
-          <img className="instagram-carousel-right-button" src={arrow_right} />
-        </div>
+      <div className="reviews-dots-for-mobile">
+        <Dots className="active-dot" />
+        <Dots className="inactive-dot color-black margin-18" />
+        <Dots className="inactive-dot color-black" />
       </div>
     </div>
   );
