@@ -4,9 +4,10 @@ import first_card_picture from "../../assets/news-first-flex-card.png";
 import second_card_picture from "../../assets/news-second-card-picture.png";
 import third_card_picture from "../../assets/news-third-card-picture.png";
 import arrow_picture from "../../assets/news-arrow-picture.svg";
-import button_left from "../../assets/news-button-left.svg";
-import button_right from "../../assets/news-button-right.svg";
 import Button from "../ui/Button/Button";
+import Dots from "../ui/Dots/Dots";
+import LeftArrow from "../ui/LeftArrow/LeftArrow";
+import RightArrow from "../ui/RightArrow/RightArrow";
 
 export default function News() {
   return (
@@ -27,38 +28,55 @@ export default function News() {
             </div>
             <img className="news-arrow-picture" src={arrow_picture} />
           </div>
-          <div className="news-card">
-            <img
-              className="news-first-card-picture"
-              src={second_card_picture}
-            />
-            <div className="news-card-text-content">
-              <p className="news-date">29 ноября 2019</p>
-              <p className="news-text">
-                Массовый сбор мужчин и женщин, которые готовы предъявить
-                последствия эпидемии хочу рожать
-              </p>
+          <div className="desktop-card">
+            <div className="news-card">
+              <img
+                className="news-first-card-picture"
+                src={second_card_picture}
+              />
+              <div className="news-card-text-content">
+                <p className="news-date">29 ноября 2019</p>
+                <p className="news-text">
+                  Массовый сбор мужчин и женщин, которые готовы предъявить
+                  последствия эпидемии хочу рожать
+                </p>
+              </div>
+              <img className="news-arrow-picture" src={arrow_picture} />
             </div>
-            <img className="news-arrow-picture" src={arrow_picture} />
           </div>
-          <div className="news-card">
-            <img className="news-first-card-picture" src={third_card_picture} />
-            <div className="news-card-text-content">
-              <p className="news-date">29 ноября 2019</p>
-              <p className="news-text">
-                Естественные роды.
-                <br /> Прямой эфир из родзала!
-              </p>
+          <div className="desktop-card">
+            <div className="news-card">
+              <img
+                className="news-first-card-picture"
+                src={third_card_picture}
+              />
+              <div className="news-card-text-content">
+                <p className="news-date">29 ноября 2019</p>
+                <p className="news-text">
+                  Естественные роды.
+                  <br /> Прямой эфир из родзала!
+                </p>
+              </div>
+              <img className="news-arrow-picture" src={arrow_picture} />
             </div>
-            <img className="news-arrow-picture" src={arrow_picture} />
           </div>
         </div>
       </div>
-      <img className="news-button-left" src={button_left} />
-      <span className="news-active-dot"></span>
-      <span className="news-dot-second"></span>
-      <span className="news-dot-third"></span>
-      <img className="news-button-right" src={button_right} />
+      <div className="news-buttons-section-main">
+        <div className="news-buttons-section">
+          <div className="button-arrow">
+            <LeftArrow />
+          </div>
+          <div>
+            <Dots className="active-dot" />
+            <Dots className="inactive-dot color-black margin-18" />
+            <Dots className="inactive-dot color-black" />
+          </div>
+          <div className="button-arrow">
+            <RightArrow />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

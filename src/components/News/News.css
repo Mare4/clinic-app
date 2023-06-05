@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap");
 .news-main {
   position: relative;
-  height: 728px;
   background-color: #faf8f3;
-  padding-top: 78px;
-  padding-left: 150px;
-  padding-right: 168px;
+  padding: 78px 168px 58px 150px;
 }
 
 .news-header {
@@ -18,7 +15,7 @@
 }
 
 .news-title {
-  font-family: Merriweather;
+  font-family: "Merriweather";
   font-size: 40px;
   font-weight: 700;
   line-height: 50.28px;
@@ -28,6 +25,7 @@
 .news-flex-cards-content {
   display: flex;
   margin-top: 70px;
+  margin-bottom: 36px;
   justify-content: space-between;
 }
 
@@ -77,51 +75,45 @@
   height: 52px;
 }
 
-.news-active-dot {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: #c3007d;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 74px;
-  left: 676px;
+.news-buttons-section-main {
+  max-width: 256px;
+  display: block;
+  margin: 35px auto 0;
 }
 
-.news-dot-third {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 74px;
-  right: 693px;
+.news-buttons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.news-dot-second {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 74px;
-  left: 706px;
-}
-
-.news-button-left {
-  position: absolute;
-  height: 45px;
-  width: 45px;
-  left: 584px;
-  bottom: 58px;
-}
-
-.news-button-right {
-  position: absolute;
-  bottom: 58px;
-  height: 45px;
-  width: 45px;
-  right: 601px;
+@media all and (max-width: 375px) {
+  .news-main {
+    padding-top: 59px;
+    padding-left: 28px;
+    padding-bottom: 60px;
+  }
+  .news-header {
+    display: block;
+  }
+  .news-title {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 31px;
+  }
+  .button-arrow {
+    display: none;
+  }
+  .news-buttons-section-main {
+    display: block;
+    width: 72px;
+    padding-left: 125px;
+  }
+  .news-card {
+    width: 320px;
+    height: 391px;
+  }
+  .desktop-card {
+    display: none;
+  }
 }
