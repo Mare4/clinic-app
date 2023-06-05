@@ -2,24 +2,20 @@
 
 .carousel-main {
   position: relative;
-  height: 693px;
   background: #4b4141;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding: 64px 150px 71px;
 }
 
 .carousel-content {
-  position: absolute;
   height: 558px;
   width: 1140px;
-  top: calc(50% - 279px);
 }
 
 .carousel-header {
   text-align: center;
   margin: 0;
   color: white;
-  font-family: Merriweather;
+  font-family: "Merriweather";
   font-size: 40px;
   line-height: 50.28px;
   font-weight: 700;
@@ -69,51 +65,65 @@
   right: calc(50% - 28px);
 }
 
-.carousel-button-left {
-  position: absolute;
-  bottom: 0;
-  height: 45px;
-  width: 45px;
-  left: 439.5px;
+.carousel-buttons-section-main {
+  max-width: 256px;
+  display: block;
+  margin: 35px auto 0;
 }
 
-.carousel-button-right {
-  position: absolute;
-  bottom: 0;
-  height: 45px;
-  width: 45px;
-  right: 439.5px;
+.carousel-buttons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.carousel-dot-second {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 15.5px;
-  right: calc(50% - 6px);
-}
-
-.carousel-dot-third {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 15.5px;
-  right: 531.5px;
-}
-
-.carousel-active-dot {
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  background-color: #c3007d;
-  border-radius: 50%;
-  display: inline-block;
-  bottom: 15.5px;
-  left: 531.5px;
+@media all and (max-width: 375px) {
+  .carousel-picture {
+    display: none;
+  }
+  .carousel-main {
+    height: 500px;
+    padding-left: 28px;
+    padding-top: 42px;
+    padding-right: auto;
+  }
+  .carousel-middle-picture {
+    position: relative;
+    width: 375px;
+    height: 254px;
+    margin: 0;
+    left: -28px;
+  }
+  .carousel-flex-pictures {
+    display: block;
+  }
+  .carousel-header {
+    text-align: left;
+    width: 250px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .carousel-header-text {
+    text-align: left;
+    font-size: 18px;
+  }
+  .carousel-play-button-background {
+    width: 68px;
+    height: 45px;
+    left: calc(50% - 34px);
+  }
+  .carousel-play-button {
+    width: 31px;
+    height: 25px;
+    right: calc(50% - 17px);
+    top: calc(50% - 5px);
+  }
+  .button-arrow {
+    display: none;
+  }
+  .carousel-buttons-section-main {
+    max-width: 72px;
+    display: block;
+    margin: 27px 150px 0 122px;
+  }
 }

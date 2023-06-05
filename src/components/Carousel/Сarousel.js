@@ -5,8 +5,9 @@ import second_picture from "../../assets/carousel-second-picture.png";
 import third_picture from "../../assets/carousel-third-picture.png";
 import play_button_background from "../../assets/carousel-play-button-background.svg";
 import play_button from "../../assets/carousel-play-button.svg";
-import button_left from "../../assets/carousel-button-left.svg";
-import button_right from "../../assets/carousel-button-right.svg";
+import LeftArrow from "../ui/LeftArrow/LeftArrow";
+import RightArrow from "../ui/RightArrow/RightArrow";
+import Dots from "../ui/Dots/Dots";
 
 export default function Carousel() {
   return (
@@ -24,11 +25,21 @@ export default function Carousel() {
           src={play_button_background}
         />
         <img className="carousel-play-button" src={play_button} />
-        <img className="carousel-button-left" src={button_left} />
-        <span className="carousel-active-dot"></span>
-        <span className="carousel-dot-second"></span>
-        <span className="carousel-dot-third"></span>
-        <img className="carousel-button-right" src={button_right} />
+        <div className="carousel-buttons-section-main">
+          <div className="carousel-buttons-section">
+            <div className="button-arrow">
+              <LeftArrow />
+            </div>
+            <div>
+              <Dots className="active-dot" />
+              <Dots className="inactive-dot color-white margin-18" />
+              <Dots className="inactive-dot color-white" />
+            </div>
+            <div className="button-arrow">
+              <RightArrow />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
