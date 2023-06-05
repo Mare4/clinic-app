@@ -97,3 +97,51 @@
 .inactive-question p {
   margin: 0;
 }
+
+@media all and (max-width: 375px) {
+  .question-main {
+    padding-top: 59px;
+    padding-left: 28px;
+    padding-bottom: 85px;
+    padding-right: 0;
+  }
+  .question-header {
+    font-size: 28px;
+    line-height: 35.2px;
+  }
+  .question-yellow-mark {
+    width: 10px;
+  }
+  .question-first-card {
+    width: 310px;
+    height: 200px;
+  }
+  .answer-of-question {
+    width: 293px;
+    margin-left: 0;
+  }
+  .question-close-button {
+    top: 13px;
+    right: 13px;
+  }
+  .question-close-button-image {
+    height: 13px;
+    width: 13px;
+  }
+  .inactive-question {
+    padding-top: 7px;
+    padding-left: 18px;
+    padding-bottom: 6px;
+  }
+  .question-drop-button {
+    top: 20px;
+    right: 10px;
+  }
+  .inactive-question {
+    width: 320px;
+  }
+  .name-of-question {
+    font-size: 16px;
+    width: 264px;
+  }
+}
