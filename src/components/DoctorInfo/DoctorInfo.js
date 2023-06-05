@@ -9,6 +9,17 @@ export default function DoctorInfo() {
       <div className="doctor-info-container">
         <p className="doctor-info-name">Буштырева Ирина</p>
 
+        <div className="doctor-info-text-mobile">
+          <p>
+            Соучредитель семейной клиники-роддома "Клиника профессора
+            Буштыревой" и руководитель проекта
+          </p>
+          <p>Доктор медицинских наук, профессор</p>
+          <p>
+            Ведущий специалист ФГБУ "Научный центр акушерства, гинекологии и
+            перинатологии имени академика В.И. Кулакова" Минздрава России
+          </p>
+        </div>
         <p className="doctor-info-text">
           - Соучредитель "Клиники профессора Буштыревой",{" "}
           <span className="doctor-info-bold-text">

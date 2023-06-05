@@ -45,3 +45,46 @@
   width: 515px;
   height: 515px;
 }
+.doctor-info-text-mobile {
+  display: none;
+}
+
+@media all and (max-width: 375px) {
+  .doctor-info-container {
+    height: 347px;
+  }
+  .doctor-info-main {
+    padding-top: 34px;
+    padding-left: 28px;
+    padding-bottom: 0;
+  }
+  .doctor-info-name {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 27px;
+  }
+
+  .doctor-info-text {
+    font-size: 18px;
+    width: 319px;
+    height: 286px;
+  }
+  .doctor-info-bold-text {
+    font-weight: 400;
+  }
+  .doctor-info-photo-of-doctor {
+    position: relative;
+    width: 317px;
+    height: 317px;
+    margin-left: 153px;
+  }
+  .doctor-info-text-mobile {
+    display: block;
+    font-size: 18px;
+    font-family: "Montserrat", "serif";
+    width: 319px;
+  }
+  .doctor-info-text {
+    display: none;
+  }
+}
