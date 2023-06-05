@@ -24,63 +24,27 @@
   width: 367px;
   height: 367px;
 }
-
-.instagram-carousel-buttons-section {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  width: 256px;
-  height: 45px;
+.instagram-dots-for-mobile {
+  display: none;
 }
 
-.instagram-flex-buttons {
-  display: flex;
-}
-
-.instagram-carousel-left-button {
-  position: absolute;
-  left: 0;
-  height: 45px;
-  width: 45px;
-}
-
-.instagram-carousel-right-button {
-  position: absolute;
-  right: 0;
-  height: 45px;
-  width: 45px;
-}
-
-.instagram-dots {
-  width: 100%;
-  text-align: center;
-}
-
-.instagram-active-dot {
-  height: 12px;
-  width: 12px;
-  background-color: #c3007d;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 16.5px;
-}
-
-.instagram-dot-third {
-  height: 12px;
-  width: 12px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 16.5px;
-}
-
-.instagram-dot-second {
-  height: 12px;
-  width: 12px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 16.5px;
-  margin-left: 18px;
-  margin-right: 18px;
+@media all and (max-width: 375px) {
+  .instagram-photo-for-desktop {
+    display: none;
+  }
+  .instagram-main {
+    padding: 0;
+  }
+  .instagram-header {
+    font-size: 28px;
+    line-height: 35.2px;
+  }
+  .instagram-carousel-photo {
+    width: 375px;
+    height: 367px;
+  }
+  .instagram-dots-for-mobile {
+    display: block;
+    text-align: center;
+  }
 }
