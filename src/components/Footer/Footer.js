@@ -6,7 +6,7 @@ import eye_image from "../../assets/footer-eye-image.svg";
 
 export default function Footer() {
   return (
-    <div className="footer-main">
+    <footer className="footer-main">
       <div className="footer-content">
         <img className="footer-logo" src={footer_logo} alt="footer_logo" />
         <div className="footer-rules-section">
@@ -32,6 +32,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

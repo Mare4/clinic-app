@@ -77,3 +77,24 @@
   margin-bottom: 0;
   margin-top: 10px;
 }
+
+@media all and (max-width: 375px) {
+  .footer-main {
+    padding: 15px 28px 15px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-version-for-the-visually-impaired-section {
+    display: none;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-partner-text-section {
+    text-align: center;
+  }
+  .partner-logo {
+    margin: 15px auto 0;
+  }
+}
