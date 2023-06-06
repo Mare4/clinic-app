@@ -34,3 +34,26 @@
   color: #fff;
   margin: 0;
 }
+
+@media all and (max-width: 375px) {
+  .our-motto-main {
+    background-image: url(../../assets/our-motto-mobile-background.png);
+    padding-top: 114px;
+    padding-left: 28px;
+    padding-right: 0;
+  }
+  .our-motto-header {
+    font-size: 28px;
+    line-height: 35.2px;
+    text-align: left;
+  }
+  .our-motto-text-block {
+    display: block;
+    margin: 0;
+    width: 298px;
+    height: auto;
+  }
+  .out-motto-text {
+    text-align: left;
+  }
+}
