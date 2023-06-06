@@ -82,26 +82,26 @@ export default function ContactUs() {
           <div className="contact-us-input-main-block">
             <div className="contact-us-input-section">
               <input
-                className="contact-us-unput-text"
+                className="contact-us-input-text"
                 name="person_name"
                 type="text"
                 placeholder="Ваше имя"
               />
               <input
-                className="contact-us-unput-text"
+                className="contact-us-input-text margin-input-for-mobile"
                 name="person_phone_number"
                 type="tel"
                 placeholder="Тел. +7(000)000-00-00"
               />
-              <p className="contact-us-agree-text">
+              <div className="contact-us-agree-text-section">
                 <input className="contact-us-input-button" type="checkbox" />
-                <span className="contact-us-margin-text-from-checkbox">
-                  Согласие на обработку
-                </span>{" "}
-                <span className="contact-us-underline-text">
-                  персональных данных
-                </span>
-              </p>
+                <p className="contact-us-margin-text-from-checkbox">
+                  Согласие на обработку{" "}
+                  <span className="contact-us-underline-text">
+                    персональных данных
+                  </span>
+                </p>
+              </div>
             </div>
             <Button
               className="btn"
